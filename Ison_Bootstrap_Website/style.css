@@ -1,0 +1,106 @@
+body {
+    display: block;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: #FFA500;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #000000;
+}
+
+.navbar-brand:hover {
+    color: #FFFFFF;
+}
+
+nav ul li a {
+    color: #808080;
+    font-size: 22px;
+    margin: auto 10px;
+}
+
+nav ul li a:hover {
+    color: #FFFFFF;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #FFF8DC;
+}
+section h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #D2B48C;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #000000;
+}
+
+button {
+    max-width: 50%;
+    border-radius: 50px !important;
+    background-color: #FFA500;
+    border-color: #FFA500;
+    color: #ffffff;
+}
+button:hover {
+    background-color: #D2B48C;
+    border-color: #D2B48C;
+}
+#hero .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+#hero .img-col {
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+#hero img {
+    max-width: 130% !important;
+    width: 130%;
+}
+
+#hero .card {
+    box-shadow: 11px 7px 16px #f9f9f9;
+    border: 0;
+    text-align: center;
+    background-color: #FFF8DC;
+}
+
+#hero .icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    color: #D2B48C;
+}
+
+#about-us .text-col {
+    padding-left: 50px;
+}
+
+#contact {
+    text-align: center;
+    background-color: #FFA500;
+    color: #ffffff;
+}
+#contact h1 {
+    text-align: center;
+    color: #ffffff;
+}
